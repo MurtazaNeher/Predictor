@@ -1,0 +1,399 @@
+.App {
+  font-family: Lucida Console;
+  text-align: center;
+}
+
+.header {
+  width: 250px;
+  height: 20%;
+  margin: auto;
+  color: yellow;
+  font-weight: 550;
+  font-family: Papyrus;
+  padding-top: 0.5rem;
+  padding-bottom: 0.4rem;
+  font-size: 40px;
+  border-radius: 20px;
+  background-color: black;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+.ruleBox {
+  text-align: justify;
+  border: 2px solid black;
+  font-size: 22px;
+  border-radius: 10px;
+  background-color: yellowgreen;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  width: 53%;
+  margin: auto;
+  margin-bottom: 2.5rem;
+}
+.ruleBox2 {
+  text-align: center;
+  border: 2px solid black;
+  font-size: 22px;
+  border-radius: 10px;
+  background-color: yellowgreen;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  width: 80%;
+  font-weight: 800;
+  margin: auto;
+  margin-bottom: 2.5rem;
+}
+.predictionBox {
+  margin-top: 3rem;
+  border: 2px solid black;
+  width: 250px;
+  height: 70px;
+  font-size: 22px;
+  margin: auto;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  font-weight: 900;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  margin-bottom: 3rem;
+}
+.predictionOutput {
+  font-size: 27px;
+}
+
+.inputDiv {
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.inputDivComp {
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 21px;
+}
+
+.inputDiv .input01 {
+  font-size: 21px;
+  justify-content: center;
+}
+
+.inputDiv .inputBox {
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 45px;
+  width: 120px;
+  background-color: yellowgreen;
+  color: black;
+  /* padding-left: 1.5rem; */
+}
+
+.inputDiv .input02 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-bottom: 1.5rem;
+}
+
+.outputBox {
+  height: 60px;
+  border-radius: 10px;
+  font-size: 50px;
+  width: 140px;
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-align: center;
+  /* padding: 0.5rem; */
+  margin-bottom: 3rem;
+}
+
+.resetBtn {
+  width: 150px;
+  height: 50px;
+  border: 3px solid black;
+  background-color: red;
+  color: white;
+  margin-bottom: 3rem;
+  font-size: 30px;
+  /* font-family: Serif, georgia; */
+  font-family: "Lucida Console", "Courier New", monospace;
+  /* border-radius: 5px; */
+}
+
+.resetBtn:hover {
+  color: red;
+  background-color: white;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  height: 90px;
+  left: 0;
+  bottom: 0;
+}
+
+.devName {
+  color: #facc15;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 0.2rem;
+}
+.sBtn {
+  color: #facc15;
+  font-family: monospace;
+  font-size: 18px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.sBtn:hover {
+  color: white;
+}
+.welcome {
+  font-size: 25px;
+}
+
+.welcomeInput {
+  width: 280px;
+  height: 90px;
+  margin-bottom: 3rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 42px;
+}
+
+.playerInfo {
+  display: block;
+  font-size: 22px;
+  border: 2px solid black;
+  width: 40%;
+  height: 80px;
+  margin-top: 1rem;
+  justify-content: center;
+  padding: 1rem 1rem;
+  margin: auto;
+
+  margin-bottom: 5rem;
+}
+
+/*For Mobile View*/
+
+@media (max-width: 900px) {
+  .App {
+    /* font-family: Monospace, monaco; */
+    text-align: center;
+    width: 650px;
+    justify-content: center;
+  }
+
+  .header {
+    width: 80%;
+    height: 20%;
+    /* margin: auto; */
+    color: yellow;
+    font-weight: 550;
+    font-family: Papyrus, fantasy;
+    padding-top: 0.5rem;
+    padding-bottom: 0.4rem;
+    font-size: 70px;
+    border-radius: 20px;
+    background-color: black;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+  }
+  .ruleBox {
+    text-align: start;
+    border: 2px solid black;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    color: black;
+    /* padding: 0.1rem 0.1rem; */
+    font-family: Verdana;
+    width: 95%;
+    /* margin: auto; */
+    margin-bottom: 2.5rem;
+  }
+
+  .ruleBox2 {
+    text-align: center;
+    border: 2px solid black;
+    font-size: 32px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    width: 95%;
+    font-weight: 500;
+    /* margin: auto; */
+    margin-bottom: 2.5rem;
+  }
+
+  .predictionBox {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 2px solid black;
+    width: 80%;
+    height: 80%;
+    font-size: 52px;
+    /* margin: auto; */
+    text-align: center;
+    font-weight: 900;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  .predictionOutput {
+    font-size: 75px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  .inputDiv {
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .inputDivComp {
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 700;
+  }
+
+  .inputDiv .input01 {
+    font-size: 35px;
+    /* margin-right: 2rem; */
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 700;
+  }
+
+  .inputDiv .inputBox {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 500;
+    height: 120px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 75px;
+    font-weight: 800;
+    width: 180px;
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .inputDiv .input02 {
+    font-size: 35px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+
+  .outputBox {
+    height: 100px;
+    border-radius: 10px;
+    font-size: 80px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    /* margin: auto; */
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .resetBtn {
+    width: 250px;
+    height: 90px;
+    border: 3px solid black;
+    background-color: red;
+    color: white;
+    margin-bottom: 3rem;
+    font-size: 55px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  .resetBtn:hover {
+    color: red;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .welcome {
+    margin-top: 4rem;
+    font-size: 45px;
+  }
+
+  .welcomeInput {
+    width: 70%;
+    height: 125px;
+    margin-bottom: 3rem;
+    border: 4px solid black;
+    border-radius: 10px;
+    font-size: 42px;
+  }
+
+  .playerInfo {
+    display: block;
+    font-size: 40px;
+    border: 2px solid black;
+    width: 80%;
+    height: 160px;
+    margin-top: 1rem;
+    justify-content: center;
+    padding: 1rem 1rem;
+    margin: auto;
+    margin-bottom: 4rem;
+  }
+
+  .footer {
+    width: 100%;
+    background-color: black;
+    height: 310px;
+    /* left: 0; */
+    /* bottom: 0; */
+    justify-content: center;
+  }
+
+  .devName {
+    color: #facc15;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 0.2rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 900;
+  }
+
+  .sBtn {
+    color: #facc15;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    justify-content: center;
+    padding-bottom: 2.5rem;
+    text-align: left;
+  }
+
+  .sBtn:hover {
+    color: white;
+  }
+
+  .sBtn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    /* padding-left: 2rem; */
+  }
+}
